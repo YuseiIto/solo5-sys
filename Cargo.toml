@@ -6,6 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+#NOTE: https://tomoyuki-nakabayashi.github.io/embedded-rust-techniques/06-ffi/c-with-rust.html
+cty = "0.2.0" 
 
 [build-dependencies]
 bindgen = "0.53.1"
