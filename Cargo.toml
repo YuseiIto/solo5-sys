@@ -2,7 +2,9 @@
 name = "solo5-sys"
 version = "0.1.0"
 edition = "2021"
-
+authors = ["yuseiito <me@yuseiito.com>"]
+description = "An FFI polyfil to build solo5-based unikernels from Rust"
+LICENCE = "MIT OR Apache-2.0"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
